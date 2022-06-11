@@ -1,18 +1,13 @@
 
-
-
 #include<bits/stdc++.h>
 using namespace std;
 int main()
 {    int num;
    cin >> num;
-
-    if(num>=33){
-        cout << num << " its is the Pass Number" ;
-
-
+    if(num%4 == 0){
+        cout << num << " is leaf year" ;
     } else {
-    cout << num << " is Failer Number";
+    cout << num << " its not leaf year";
     }
 
 

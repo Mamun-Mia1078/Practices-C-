@@ -8,7 +8,7 @@ int main()
 
     }
     else {
-        cout << "ans is not valid";
+        cout << " condition is not valid";
     }
 
 
